@@ -1,0 +1,16 @@
+{
+	"private": true,
+	"license": "WTFPL",
+	"scripts": {
+		"compile": "fly",
+		"run": "node lib/hello"
+	},
+	"dependencies": {
+		"amdefine": "1.0.0",
+		"msl": "mason-lang/msl"
+	},
+	"devDependencies": {
+		"fly": "1.1.9",
+		"fly-mason": "mason-lang/fly-mason"
+	}
+}
